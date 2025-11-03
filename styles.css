@@ -95,8 +95,9 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    max-width: 1000px;
+    grid-template-columns: 2fr 3fr;
+    max-width: 810px;
+    margin-top: 200px;
     background-color: white;
     border-radius: 16px;
     overflow: hidden;
@@ -111,6 +112,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    h1 {
+        font-size: 1.8rem;
+        color: hsl(217, 19%, 35%);
+    }
+    p {
+        font-size: 1rem;
+        color: hsl(214, 17%, 51%);
+    }
 }
 
 .author-info {
@@ -142,4 +152,17 @@ body {
     color: white;
     padding: 16px 24px;
     border-radius: 8px;
+}
+
+.share-button {
+    background-color: hsl(210, 46%, 95%);
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    img {
+      width: 20px;
+      height: auto;
+    }
 }
