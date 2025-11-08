@@ -15,7 +15,7 @@
 <body>
 
   <div class="container">
-    <div>
+    <div class="image-container">
       <img src="./images/drawers.jpg" alt="Drawers" />
     </div>
     <div class="content">
@@ -34,28 +34,27 @@
             <img src="./images/avatar-michelle.jpg" alt="Michelle Appleton">
           </div>
           <div>
-            <div>Michelle Appleton</div>
+            <div class="author-name">Michelle Appleton</div>
               <div>
                 <time datetime="2020-06-28">28 Jun 2020</time>
               </div>
           </div>
         </div>
-          <div>        
-            <div>
-              <button class="share-button">
-                <img src="./images/icon-share.svg" alt="">
-              </button>
-            </div>
-
+        <div class="share-container-parent">        
+          <div class="share-container">
+            <button class="share-button" id="share-button">
+              <img src="./images/icon-share.svg" alt="">
+            </button> 
             <div class="share-options">
-              <span>Share</span>
+              <span class="share-label">Share</span>
               <div>
                 <button><img src="./images/icon-facebook.svg" alt="Facebook"></button>
                 <button><img src="./images/icon-twitter.svg" alt="Twitter"></button>
                 <button><img src="./images/icon-pinterest.svg" alt="Pinterest"></button>
               </div>
             </div>
-        </div>
+          </div>
+      </div>
       </div>
     </div>
   </div>
@@ -64,5 +63,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

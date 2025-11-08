@@ -1,5 +1,6 @@
-const shareButton = document.querySelector('.author-info button');
+const shareButton = document.querySelector('#share-button');
+const shareOptions = document.querySelector('.share-options');
 
-shareButton.addEventListener('click', () => {
-  document.querySelector('.share-options').classList.toggle('visible');
-});
+shareButton.onclick = function() {
+    shareOptions.classList.toggle('visible');
+}
